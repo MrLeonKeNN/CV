@@ -168,6 +168,7 @@ h1 span {
 
 .container__icon {
   margin: 10px 0 50px 150px;
+  padding-bottom: 20px;
 }
 
 .container__icon a {
@@ -185,6 +186,14 @@ h2 {
 .sect__two {
   display: flex;
   justify-content: space-around;
+}
+
+.sect__tree {
+  justify-content: space-around;
+  background-color: white;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 16px;
+  padding-bottom: 40px;
 }
 
 .div__skils__one {
@@ -210,6 +219,29 @@ h2 {
   color: white;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
+}
+
+.container__block {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.container__block > div {
+  max-width: 500px;
+}
+
+.container__block > p {
+  font-weight: 700;
+  text-align: center;
+  width: 400px;
+}
+
+.p__weight {
+  font-weight: 600;
+}
+
+.p__left {
+  margin-left: 50px;
 }
 
 .div__skils__two {
@@ -253,6 +285,14 @@ h2 {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 24px;
+}
+
+.education {
+  text-align: center;
+}
+
+.education > p {
+  text-align: start;
 }
 
 .html_skill {
@@ -346,6 +386,15 @@ h3 {
 .tree_div_one {
   display: flex;
   justify-content: center;
+}
+
+.education__one {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 16px;
+  padding-bottom: 40px;
 }
 
 .desc {
