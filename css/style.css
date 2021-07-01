@@ -231,7 +231,6 @@ h2 {
 }
 
 .container__block > p {
-  font-weight: 700;
   text-align: center;
   width: 400px;
 }
@@ -394,6 +393,11 @@ h3 {
   font-family: 'Open Sans',sans-serif;
   font-size: 16px;
   padding-bottom: 40px;
+}
+
+.time {
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .desc {
