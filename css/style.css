@@ -137,6 +137,7 @@ h1 span {
   justify-content: space-between;
   max-width: 90%;
   margin: 30px 0 0 0;
+  padding-bottom: 20px;
 }
 
 .div_age p {
@@ -183,9 +184,32 @@ h2 {
   margin: 100px 0 100px 0;
 }
 
+.sect__end {
+  background-color: white;
+  padding: 40px 0 40px 40px;
+  margin-bottom: 60px;
+}
+
+.div__contact {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 500px;
+}
+
+.div__contact > i {
+  margin-right: 40px;
+  margin-bottom: 6px;
+}
+
+.div__contact > p {
+  font-size: 18px;
+  text-align: center;
+}
+
 .sect__two {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
 .sect__tree {
@@ -197,7 +221,7 @@ h2 {
 }
 
 .div__skils__one {
-  width: 35%;
+  width: 60%;
   background-color: white;
   padding: 80px 20px 50px 20px;
   position: relative;
@@ -251,7 +275,7 @@ h2 {
   justify-content: space-around;
 }
 
-.div__skils__two p {
+.div__skils__two > p {
   text-align: center;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
@@ -273,9 +297,23 @@ h2 {
 }
 
 .flex_box_one > p {
+  font-weight: 600;
   font-family: 'Open Sans', sans-serif;
   color: #666666;
   margin: 10px 0 5px 0;
+}
+
+.flex_box_one_custom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex_box_one_custom > p {
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  color: #666666;
+  margin: 10px 0 5px 0;
+  font-size: 16px;
 }
 
 .p__academy {
@@ -304,6 +342,10 @@ h2 {
 
 .JavaScript_skill {
   background: linear-gradient(90deg, #0087be 75%, #757575 50%);
+}
+
+.English_skill {
+  background: linear-gradient(90deg, #0087be 20%, #757575 10%);
 }
 
 .PHP_skill {
@@ -396,8 +438,16 @@ h3 {
 }
 
 .time {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 14px;
+}
+
+.div_skill_language {
+  width: 30%;
+  background-color: white;
+  padding: 80px 20px 50px 20px;
+  margin-left: 40px;
+  position: relative;
 }
 
 .desc {
@@ -444,6 +494,20 @@ h3 {
 .img img {
   display: inline-block;
   margin: 3px;
+}
+
+.fa-telegram {
+  font-weight: 600;
+}
+
+.fa-telegram:hover {
+  color: #08c;
+}
+
+.fa-github:hover {
+  color: white;
+  background-color: black;
+  border-radius: 50%;
 }
 
 @keyframes bgfade {
